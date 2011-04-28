@@ -2,6 +2,7 @@
 ### directory-dependent environment configuration
 # Copyright (C) 2011 by Patrick Schoenfeld <patrick.schoenfeld@googlemail.com>
 # License: GPL v2
+# (some parts taken from the grml zshrc)
 #
 # This shell functions allow to switch environment variables / profiles based
 # on directory names. It allows a configuration similar to the following:
