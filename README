@@ -1,0 +1,10 @@
+This contains some zsh functions I find useful. To use them, either:
+
+1) Create a directory ~/.zsh/functions and put the files you need in there
+2) Put something like this into your zshrc
+
+if [ -e $HOME/.zsh/functions ]; then
+    autoload $HOME/.zsh/functions/*(:t)
+fi
+
+or copy the content of the files to your zshrc.
